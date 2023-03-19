@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MARVEL_HEROES>
+    <HERO>
+        <HERO_NAME>Spider Man</HERO_NAME>
+        <CIVILIAN_NAME>Peter Parker</CIVILIAN_NAME>
+        <ORIGIN>Queens, New york city, USA</ORIGIN>
+        <GREATEST_ENEMY>The Green Goblin</GREATEST_ENEMY> 
+        <POWER_SOURCE>Radioactive Spider</POWER_SOURCE>
+    </HERO>
+    <HERO>
+        <HERO_NAME>Iron Man</HERO_NAME>
+        <CIVILIAN_NAME>Tony Stark</CIVILIAN_NAME>
+        <ORIGIN>Midtown Manhattan, New York City, USA</ORIGIN>
+        <GREATEST_ENEMY>The Mandarin</GREATEST_ENEMY>
+        <POWER_SOURCE>Arc Reactor</POWER_SOURCE>
+    </HERO>
+    <HERO>
+        <HERO_NAME>Captain America</HERO_NAME>
+        <CIVILIAN_NAME>Steve Rogers</CIVILIAN_NAME>
+        <ORIGIN>Brooklyn, New York City, USA</ORIGIN>
+        <GREATEST_ENEMY>Red Skull</GREATEST_ENEMY>
+        <POWER_SOURCE>Super Soldier Serum</POWER_SOURCE>
+    </HERO>
+    <HERO>
+        <HERO_NAME>Hulk</HERO_NAME>
+        <CIVILIAN_NAME>Bruce Banner</CIVILIAN_NAME>
+        <ORIGIN>Dayton, Ohio, USA</ORIGIN>
+        <GREATEST_ENEMY>Abomination</GREATEST_ENEMY>
+        <POWER_SOURCE>Gamma Radiation</POWER_SOURCE>
+    </HERO>
+    <HERO>
+        <HERO_NAME>Doctor Strange</HERO_NAME>
+        <CIVILIAN_NAME>Stephen Strange</CIVILIAN_NAME>
+        <ORIGIN>North of Port Jervis, New York</ORIGIN>
+        <GREATEST_ENEMY>Shuma-Gorath</GREATEST_ENEMY>
+        <POWER_SOURCE>The Eye of Agamotto</POWER_SOURCE>
+    </HERO>
+    <HERO>
+        <HERO_NAME>Thor</HERO_NAME>
+        <CIVILIAN_NAME>Thor Odinson</CIVILIAN_NAME>
+        <ORIGIN>Asgard</ORIGIN>
+        <GREATEST_ENEMY>Loki</GREATEST_ENEMY>
+        <POWER_SOURCE>Golden Apples of Idunn</POWER_SOURCE>
+    </HERO>
+</MARVEL_HEROES>
