@@ -40,6 +40,7 @@
                     <th>ORIGIN PLACE</th>
                     <th>GREATEST ENEMY</th>
                     <th>POWER SOURCE</th>
+                    <th>ABILITIES</th>
                 </tr>
             `;
 
@@ -48,6 +49,11 @@
             var ORIGIN = xmlDoc.getElementsByTagName("ORIGIN");
             var GREATEST_ENEMY = xmlDoc.getElementsByTagName("GREATEST_ENEMY");
             var POWER_SOURCE = xmlDoc.getElementsByTagName("POWER_SOURCE");
+            var ABILITY1 = xmlDoc.getElementsByTagName("ABILITY1");
+            var ABILITY2 = xmlDoc.getElementsByTagName("ABILITY2");
+            var ABILITY3 = xmlDoc.getElementsByTagName("ABILITY3");
+            var ABILITY4 = xmlDoc.getElementsByTagName("ABILITY4");
+
 
             for (i = 0; i< HERO_NAME.length; i++) {
                 txt += `
@@ -57,7 +63,17 @@
                         <td>${ORIGIN[i].childNodes[0].nodeValue}</td>
                         <td>${GREATEST_ENEMY[i].childNodes[0].nodeValue}</td>
                         <td>${POWER_SOURCE[i].childNodes[0].nodeValue}</td>
+                            <th>
+                                <ul>
+                                    <li>${ABILITY1[i].childNodes[0].nodeValue}</li>
+                                    <li>${ABILITY2[i].childNodes[0].nodeValue}</li>
+                                    <li>${ABILITY3[i].childNodes[0].nodeValue}</li>
+                                    <li>${ABILITY4[i].childNodes[0].nodeValue}</li>
+                                </ul>
+                            </th>
                     </tr>
+                    
+                
                 `;                
             }
 
